@@ -1,0 +1,79 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import '../assets/styles/variables/_typography';
+@import '../assets/styles/variables/_colors';
+@import '../assets/styles/variables/_media';
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-family: $font-montserrat;
+	background-color: $color-gray-1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.container-banner {
+	margin: 0 auto;
+	background: $color-blue-5;
+	position: relative;
+
+	&::before {
+			content: '';
+			position: absolute;
+			width: 2995px;
+			height: 32px;
+			bottom: 0;
+			left: 0;
+			margin-left: 50%;
+			transform: translateX(-54%);
+			-webkit-transform: translateX(-54%);
+			-ms-transform: translateX(-54%);
+			background-color: $color-gray-1;
+			background-image: url('../assets/img/wave.svg');
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			z-index: 2;
+		}
+
+	@media (min-width: $screen-lg) {
+		&::before {
+			content: '';
+			position: absolute;
+			width: 2995px;
+			height: 32px;
+			bottom: 0;
+			left: 0;
+			margin-left: 50%;
+			transform: translateX(-60%);
+			-webkit-transform: translateX(-60%);
+			-ms-transform: translateX(-60%);
+			background-color: $color-gray-1;
+			background-image: url('../assets/img/wave.svg');
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			z-index: 2;
+		}
+	}
+}
+
+

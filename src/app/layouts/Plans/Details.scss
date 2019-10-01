@@ -1,0 +1,34 @@
+@import '../../../assets/styles/variables/_media.scss';
+@import '../../../assets/styles/variables/_colors.scss';
+@import '../../../assets/styles/variables/_typography.scss';
+
+.plan-card {
+	> .wrap-details {
+		padding: 3.3rem 1.5rem;
+		background: $color-white;
+		border-top: 1px solid $color-blue-1;
+		border-left: 1px solid $color-blue-1;
+		border-right: 1px solid $color-blue-1;
+		border-bottom: 1px solid $color-blue-1;
+		border-radius: 0 0 4px 4px;
+
+		>	.details {
+			list-style: none;
+
+			> .item {
+				text-align: left;
+				font-weight: 400;
+				font-size: 1.6rem;
+				color: $color-black;
+
+				&:not(:last-child) {
+					margin-bottom: 1.1rem;
+				}
+			}
+
+			.mark {
+				border-bottom: 1px dashed $color-blue-3;
+			}
+		}
+	}
+}

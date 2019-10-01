@@ -1,0 +1,18 @@
+@import '../../../assets/styles/variables/_media.scss';
+@import '../../../assets/styles/variables/_colors.scss';
+
+.menu {
+	border: 1px solid #F1F6FB;
+	background: $color-white;
+
+	> .container-menu {
+		margin: 0 auto;
+		max-width: $container-lg;
+		padding: 0.8rem 1.5rem;
+
+		> .logo {
+			width: 19.8rem;
+			height: 3.5rem;
+		}
+	}
+}

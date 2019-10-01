@@ -1,0 +1,112 @@
+@import '../../../assets/styles/variables/_media.scss';
+@import '../../../assets/styles/variables/_colors.scss';
+@import '../../../assets/styles/variables/_typography.scss';
+
+.banner {
+	margin: 0 auto;
+	padding: 3rem 1.5rem;
+	background: $color-blue-5;
+	max-width: $container-lg;
+	position: relative;
+
+	@media (min-width: $screen-lg) {
+		&::before {
+			content: '';
+			position: absolute;
+			left: -28rem;
+			top: 9.5rem;
+			width: 48.5rem;
+			height: 35.3rem;
+			background-image: url('../../../assets/img/desktop-1.svg');
+			background-repeat: no-repeat;
+			z-index: 3;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			right: -27rem;
+			top: 10.2rem;
+			background-image: url('../../../assets/img/desktop-2.svg');
+			background-repeat: no-repeat;
+			width: 43.8rem;
+			height: 34.6rem;
+			z-index: 3;
+		}
+	}
+
+	> .title {
+		margin: 0 0 3.5rem 0;
+		text-align: center;
+		font-size: 2.4rem;
+		font-weight: 700;
+		line-height: 1.5;
+		color: $color-white;
+
+		@media (min-width: $screen-sm) {
+			margin: 0 auto 5rem auto;
+			font-size: 3rem;
+			line-height: 1.6;
+			width: 680px;
+		}
+	}
+
+	> .subtitle {
+		margin: 0 0 1.5rem 0;
+		text-align: center;
+		font-size: 1.6rem;
+		font-weight: 600;
+		letter-spacing: 0.16rem;
+		color: $color-blue-2;
+
+		@media (min-width: $screen-sm) {
+			margin: 6rem 0 0.8rem 0;
+			font-size: 1.9rem;
+		}
+	}
+
+	> .details {
+		text-align: center;
+
+		@media (min-width: $screen-sm) {
+			margin-bottom: 6rem;
+		}
+
+		.wrap-paragraph {
+			margin-bottom: 1rem;
+
+			&.-first {
+				padding: 0 3rem;
+			}
+
+			@media (min-width: $screen-sm) {
+				margin-bottom: 1.5rem;
+
+				&.-second {
+					display: inline-block;
+					width: 48%;
+					text-align: right;
+				}
+
+				&.-third {
+					display: inline-block;
+					width: 50%;
+					text-align: left;
+					margin-left: 10px;
+				}
+			}
+		}
+
+		.check-icon {
+			display: inline;
+			margin-right: 0.5rem;
+		}
+
+		.paragraph {
+			display: inline;
+			font-size: 1.6rem;
+			font-weight: 400;
+			color: $color-blue-2;
+		}
+	}
+}

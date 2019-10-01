@@ -1,0 +1,86 @@
+@import '../../../assets/styles/variables/typography';
+@import '../../../assets/styles/variables/_colors';
+
+.wrap-button {
+	position: relative;
+	max-width: 32.5rem;
+	height: 4rem;
+	margin: 1rem auto 5rem;
+	background: $color-white;
+	border: 1px solid $color-blue-4;
+	border-radius: 21px;
+
+	.button {
+		position: absolute;
+		width: 33%;
+		height: 100%;
+		border-radius: 10px;
+		background: $color-white;
+		font-size: 1.6rem;
+		border-radius: 19px;
+		font-weight: 400;
+		color: $color-blue-5;
+		cursor: pointer;
+		padding: 9px 0 0 8px;
+		transition: all .2s cubic-bezier(.42,0,.58,1);
+
+		@media (min-width: 350px) {
+			padding: 9px 0 0 15px;
+		}
+
+		.radio {
+			position: relative;
+
+			.on, .off {
+				position: absolute;
+			}
+
+			.on {
+					display: none;
+				}
+
+			.off {
+				display: block;
+			}
+		}
+
+		&.selected {
+			background: $color-blue-4;
+			color: $color-white;
+			font-weight: 600;
+
+			.radio {
+				.on {
+					display: block;
+				}
+			}
+
+			&:hover {
+				background: $color-blue-5;
+			}
+		}
+
+		&:first-child {
+			left: 0;
+		}
+
+		&:nth-child(2) {
+			right: 0;
+			left: 0;
+			margin: 0 auto;
+		}
+
+		&:last-child {
+			right: 0;
+		}
+
+		&:hover {
+			background: $color-gray-1;
+			font-weight: 600;
+		}
+
+		.text {
+			margin-left: 2.5rem;
+		}
+	}
+}

@@ -1,0 +1,75 @@
+@import '../../../assets/styles/variables/_media.scss';
+@import '../../../assets/styles/variables/_colors.scss';
+@import '../../../assets/styles/variables/_typography.scss';
+
+.plan-card {
+	> .content {
+		padding: 3.3rem 1.5rem;
+		background: $color-white;
+		border-top: 1px solid $color-blue-1;
+		border-left: 1px solid $color-blue-1;
+		border-right: 1px solid $color-blue-1;
+		padding: 3.3rem 1.5rem;
+		text-align: center;
+
+		> .equivalent {
+			font-size: 1.3rem;
+			font-weight: 400;
+			color: $color-black;
+
+			.current-price {
+				margin-right: 0.5rem;
+				text-decoration: line-through;
+			}
+
+			.discount-price {
+				font-weight: 700;
+			}
+
+			.text {
+				margin-top: 0.5rem;
+				display: block;
+			}
+		}
+
+		> .portion-price {
+			font-weight: 400;
+			font-size: 2rem;
+			color: $color-blue-5;
+			text-align: center;
+
+			.value {
+				font-weight: 700;
+				font-size: 3.5rem;
+				margin-left: 0.5rem;
+			}
+		}
+
+		> .domain {
+			.text {
+				display: block;
+				font-size: 1.5rem;
+				font-weight: 700;
+				color: $color-black;
+				margin-bottom: 1.2rem;
+			}
+
+			.save {
+				font-size: 1.4rem;
+				font-weight: 400;
+				color: $color-blue-5;
+			}
+
+			.discount {
+				margin-left: 6px;
+				padding: 1px 6px;
+				font-size: 1.4rem;
+				font-weight: 700;
+				color: $color-white;
+				text-transform: uppercase;
+				background: $color-green;
+				border-radius: 1rem;
+			}
+		}
+	}
+}
