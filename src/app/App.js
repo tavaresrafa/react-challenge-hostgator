@@ -259,13 +259,6 @@ class App extends Component {
 }
 
 App.propTypes = {
-	handleClick: PropTypes.func,
-	calculateDiscount: PropTypes.func,
-	calculateMonthPortion: PropTypes.func,
-	calculateSaving: PropTypes.func,
-	handlePlanCycle: PropTypes.func,
-	previous: PropTypes.func,
-	next: PropTypes.func,
 	isLoadingPlans: PropTypes.bool,
 	activeIndex: PropTypes.number,
 	data: PropTypes.object,
