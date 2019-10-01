@@ -15,10 +15,10 @@ class ButtonCycle extends Component {
 				onClick={this.handleClick}
 				onKeyPress={this.handleClick}
 			>
-				<div className="radio">
+				<span className="radio">
 					<img className="off" src={offRadio} alt="Radio off"/>
 					<img className="on" src={onRadio} alt="Radio On"/>
-				</div>
+				</span>
 				<span className="text">{this.props.name}</span>
 			</div>
 		)

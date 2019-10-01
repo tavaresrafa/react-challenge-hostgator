@@ -21,15 +21,16 @@
 		font-weight: 400;
 		color: $color-blue-5;
 		cursor: pointer;
-		padding: 9px 0 0 8px;
+		padding-top: 5px;
+		text-align: center;
 		transition: all .2s cubic-bezier(.42,0,.58,1);
-
-		@media (min-width: 350px) {
-			padding: 9px 0 0 15px;
-		}
 
 		.radio {
 			position: relative;
+			top: 3px;
+			width: 18px;
+			height: 18px;
+			display: inline-block;
 
 			.on, .off {
 				position: absolute;
@@ -80,7 +81,8 @@
 		}
 
 		.text {
-			margin-left: 2.5rem;
+			margin-left: 4px;
+			display: inline-block;
 		}
 	}
 }
