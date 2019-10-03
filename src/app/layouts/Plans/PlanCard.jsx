@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Content from './Content';
 import Details from './Details';
 import PlanIcon from '../../../assets/img/icon-plan-1.svg';
-import './index.scss';
+import './PlanCard.scss';
 
 const Plans = ({ plan, price, discountprice, monthportion, saving, planCard }) => {
 	return (
@@ -41,6 +41,5 @@ Plans.propTypes = {
 	monthportion: PropTypes.node.isRequired,
 	saving: PropTypes.node.isRequired
 };
-
 
 export default Plans;
