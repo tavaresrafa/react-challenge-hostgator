@@ -1,0 +1,34 @@
+@import '../../../assets/styles/variables/_colors.scss';
+
+.container-plans {
+	padding: 1.5rem;
+	margin-top: 5rem;
+
+	> .text {
+		text-align: center;
+		font-weight: 400;
+		font-size: 1.4rem;
+		color: $color-blue-5;
+	}
+}
+
+.wrap-plans {
+	position: relative;
+	text-align: center;
+	margin-top: 5rem;
+}
+
+.slick-slider {
+	max-width: 1050px;
+	margin: auto;
+}
+
+.legal-text {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: $color-blue-4;
+	opacity: 0.7;
+	margin-top: 1.7rem;
+}

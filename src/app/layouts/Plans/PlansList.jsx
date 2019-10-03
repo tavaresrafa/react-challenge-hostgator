@@ -6,6 +6,7 @@ import PlanCard from './PlanCard';
 import ButtonCycle from '../../components/Button/CycleButton';
 import Loading from '../../components/Loading';
 import SliderArrow from '../../components/Arrow/SliderArrow';
+import './PlansList.scss';
 
 class PlansList extends Component {
 	state = {
