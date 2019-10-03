@@ -1,5 +1,8 @@
 # HostGator Challenge
 
+`Deploy link:` [react-hostgator-challenge](http://react-hostgator-challenge.surge.sh/)
+
+
 ### Technologies
 List of main languages and libraries used in this project:
 - SASS
@@ -15,9 +18,9 @@ List of main languages and libraries used in this project:
 
 ## How to run
 
-### `npm install` (You need to have installed latest version of `NodeJS` to run this)
+`npm install` (You need to have installed latest version of `NodeJS` to run this)
 
-### `npm start` or `yarn start`
+`npm start` or `yarn start`
 
 Runs the app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -27,7 +30,7 @@ You will see the build errors and lint warnings in the console.
 
 ## How to build
 
-### `npm run build` or `yarn build`
+`npm run build` or `yarn build`
 
 In order to see the build you need to deploy or run in a local server.
 
