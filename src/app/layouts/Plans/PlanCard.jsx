@@ -2,15 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Content from './Content';
 import Details from './Details';
-import PlanIcon from '../../../assets/img/icon-plan-1.svg';
 import './PlanCard.scss';
 
-const Plans = ({ plan, price, discountprice, monthportion, saving, planCard }) => {
+const Plans = ({ plan, price, discountprice, monthportion, saving, plancard, icon }) => {
 	return (
-		<div className={`plan-card ${planCard}`}>
+		<div className={`plan-card ${plancard}`}>
 			<div className="item" />
 			<div className="header">
-				<img className="icon" src={PlanIcon} alt="Icon's Plan" />
+				<img className="icon" src={icon} alt="Icon's Plan" />
 				<h3 className="title">
 					{plan}
 				</h3>

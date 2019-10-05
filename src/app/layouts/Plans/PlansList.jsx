@@ -6,6 +6,9 @@ import PlanCard from './PlanCard';
 import ButtonCycle from '../../components/Button/CycleButton';
 import Loading from '../../components/Loading';
 import SliderArrow from '../../components/Arrow/SliderArrow';
+import PlanIconP from '../../../assets/img/icon-plan-1.svg';
+import PlanIconM from '../../../assets/img/icon-plan-2.svg';
+import PlanIconTurbo from '../../../assets/img/icon-plan-3.svg';
 import './PlansList.scss';
 
 class PlansList extends Component {
@@ -217,6 +220,7 @@ class PlansList extends Component {
 									discountprice={planoP.discount}
 									monthportion={planoP.monthPortion}
 									saving={planoP.saving}
+									icon={PlanIconP}
 								/>
 								<PlanCard
 									plan={planoM.name}
@@ -224,7 +228,8 @@ class PlansList extends Component {
 									discountprice={planoM.discount}
 									monthportion={planoM.monthPortion}
 									saving={planoM.saving}
-									planCard="recommended"
+									icon={PlanIconM}
+									plancard="recommended"
 								/>
 								<PlanCard
 									plan={planoTurbo.name}
@@ -232,6 +237,7 @@ class PlansList extends Component {
 									discountprice={planoTurbo.discount}
 									monthportion={planoTurbo.monthPortion}
 									saving={planoTurbo.saving}
+									icon={PlanIconTurbo}
 								/>
 							</Slider>
 							<div className="legal-text">
