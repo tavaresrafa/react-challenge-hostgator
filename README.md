@@ -5,7 +5,7 @@
 
 ![Lighthouse score:](https://github.com/tavaresrafa/react-challenge-hostgator/blob/master/src/assets/img/lighthouse.jpg)
 
-I'm going to describre below the Lighthouse feedback of why is not achieving 100% in some points:
+I've implemented everything that I could to get the highest score possible based on the Lighthouse's feedback. I'm going to describre below the Lighthouse log of why is not achieving 100% in some points:
 
 `- Performance:` First Meaningful Paint.
 
