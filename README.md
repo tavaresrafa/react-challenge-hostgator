@@ -2,7 +2,7 @@
 
 `SSL(https) link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
 
-# Extra Challenge Points
+## Extra Challenge Points
 
 `Utilização de automatizadores (Used Webpack to automate the list below):`
 - Autoprefixed CSS, so you don’t need `-webkit-` or other prefixes.
@@ -33,7 +33,7 @@ I've implemented everything that I could to get the highest score possible based
 
 - SEO: Page is blocked from indexing.
 
-### Technologies
+## Technologies
 List of main languages and libraries used in this project:
 - SASS
 - ReactJS
@@ -42,7 +42,7 @@ List of main languages and libraries used in this project:
 - Axios
 - Slick
 
-### Architecture/Methodology
+## Architecture/Methodology
 - Mobile First
 - Concepts of RSCSS
 
