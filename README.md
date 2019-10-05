@@ -2,19 +2,33 @@
 
 `SSL(https) link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
 
+# Extra Challenge Points
+
+`Utilização de automatizadores (Gulp, Grunt ou Webpack):` I'm using Webpack for the automations.
+
+`Utilização de pré-processadores de CSS (SASS, LESS e etc):` The project was implemented with SASS.
+
+`Utilização de ES6:` The project was implemented using ES6.
+
+`Animações e efeitos:`
+- Bounce animation in the scroll down button, the animation was made with CSS only.
+- Transition effect when hovering the buttons of cycle and plans, the animation was made with CSS only.
+- Animation to the loading component that appears while the data request is in progress, the animation was made with CSS only.
+
+`Otimização de Performance:`
 
 ![Lighthouse score:](https://github.com/tavaresrafa/react-challenge-hostgator/blob/master/src/assets/img/lighthouse.jpg)
 
 I've implemented everything that I could to get the highest score possible based on the Lighthouse's feedback. I'm going to describre below the Lighthouse log of why is not achieving 100% in some points:
 
-`- Performance:` First Meaningful Paint.
+- Performance: First Meaningful Paint.
 
-`- Accessibility:` Background and foreground colors do not have a sufficient contrast ratio. 
+- Accessibility: Background and foreground colors do not have a sufficient contrast ratio. 
 (One of the reasons to not score 100%, is the green background contrast in the "40%" text. So, this should be rethinked in the design level).
 
-`- Best practices:` Does not use HTTP/2 for all of its resources.
+- Best practices: Does not use HTTP/2 for all of its resources.
 
-`- SEO:` Page is blocked from indexing.
+- SEO: Page is blocked from indexing.
 
 ### Technologies
 List of main languages and libraries used in this project:
