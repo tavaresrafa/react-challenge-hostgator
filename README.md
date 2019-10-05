@@ -1,6 +1,6 @@
 # HostGator Challenge
 
-`SSL link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
+`SSL(https) link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
 
 
 ### Technologies
