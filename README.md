@@ -4,7 +4,10 @@
 
 # Extra Challenge Points
 
-`Utilização de automatizadores (Gulp, Grunt ou Webpack):` I'm using Webpack for the automations.
+`Utilização de automatizadores (Used Webpack to automate the list below):`
+- Autoprefixed CSS, so you don’t need `-webkit-` or other prefixes.
+- A live development server that warns about common mistakes.
+- A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
 
 `Utilização de pré-processadores de CSS (SASS, LESS e etc):` The project was implemented with SASS.
 
@@ -68,13 +71,3 @@ yarn global add serve
 serve -s build
 ```
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
-
-## Included in the project
-
-The environment have everything to build a modern single-page React app:
-
-- React, JSX, ES6, TypeScript and Flow syntax support.
-- Language extras beyond ES6 like the object spread operator.
-- Autoprefixed CSS, so you don’t need `-webkit-` or other prefixes.
-- A live development server that warns about common mistakes.
-- A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
