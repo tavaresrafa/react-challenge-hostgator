@@ -3,6 +3,19 @@
 `SSL(https) link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
 
 
+![Lighthouse score:](https://github.com/tavaresrafa/react-challenge-hostgator/blob/master/src/assets/img/lighthouse.jpg)
+
+I'm going to describre below the Lighthouse feedback of why is not achieving 100% in some points:
+
+`- Performance:` First Meaningful Paint.
+
+`- Accessibility:` Background and foreground colors do not have a sufficient contrast ratio. 
+(One of the reasons to not score 100%, is the green background contrast in the "40%" text. So, this should be rethinked in the design level).
+
+`- Best practices:` Does not use HTTP/2 for all of its resources.
+
+`- SEO:` Page is blocked from indexing.
+
 ### Technologies
 List of main languages and libraries used in this project:
 - SASS
