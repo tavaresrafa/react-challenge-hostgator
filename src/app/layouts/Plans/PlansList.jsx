@@ -155,59 +155,60 @@ class PlansList extends Component {
 
 		return (
 			<Fragment>
-				<p className="text">Quero pagar a cada:</p>
-				<div className="wrap-button">
-					<ButtonCycle
-						name="3 anos"
-						index={0}
-						isActive={this.state.activeIndex === 0}
-						onClick={(e) => {
-							this.handleClick(e);
-							this.handlePlanCycle(
-								data.planoP.cycle.triennially,
-								data.planoM.cycle.triennially,
-								data.planoTurbo.cycle.triennially
-							);
-						}}
-					/>
+				{isLoadingPlans && (
+					<Loading />
+				)}
 
-					<ButtonCycle
-						name="1 ano"
-						index={1}
-						isActive={this.state.activeIndex === 1}
-						onClick={(e) => {
-							this.handleClick(e);
-							this.handlePlanCycle(
-								data.planoP.cycle.annually,
-								data.planoM.cycle.annually,
-								data.planoTurbo.cycle.annually
-							);
-						}}
-					/>
+				{!isLoadingPlans && (
+					<Fragment>
+						<p className="text">Quero pagar a cada:</p>
+						<div className="wrap-button">
+							<ButtonCycle
+								name="3 anos"
+								index={0}
+								isActive={this.state.activeIndex === 0}
+								onClick={(e) => {
+									this.handleClick(e);
+									this.handlePlanCycle(
+										data.planoP.cycle.triennially,
+										data.planoM.cycle.triennially,
+										data.planoTurbo.cycle.triennially
+									);
+								}}
+							/>
 
-					<ButtonCycle
-						name="1 mês"
-						index={2}
-						isActive={this.state.activeIndex === 2}
-						onClick={(e) => {
-							this.handleClick(e);
-							this.handlePlanCycle(
-								data.planoP.cycle.monthly,
-								data.planoM.cycle.monthly,
-								data.planoTurbo.cycle.monthly
-							);
-						}}
-					/>
-				</div>
-				<div className="wrap-plans">
-					{isLoadingPlans && (
-						<Loading />
-					)}
+							<ButtonCycle
+								name="1 ano"
+								index={1}
+								isActive={this.state.activeIndex === 1}
+								onClick={(e) => {
+									this.handleClick(e);
+									this.handlePlanCycle(
+										data.planoP.cycle.annually,
+										data.planoM.cycle.annually,
+										data.planoTurbo.cycle.annually
+									);
+								}}
+							/>
 
+							<ButtonCycle
+								name="1 mês"
+								index={2}
+								isActive={this.state.activeIndex === 2}
+								onClick={(e) => {
+									this.handleClick(e);
+									this.handlePlanCycle(
+										data.planoP.cycle.monthly,
+										data.planoM.cycle.monthly,
+										data.planoTurbo.cycle.monthly
+									);
+								}}
+							/>
+						</div>
+						<div className="wrap-plans">
 					<SliderArrow arrowclass="arrow -prev" action={this.previous} />
 					<SliderArrow arrowclass="arrow -next" action={this.next} />
 
-					{!isLoadingPlans && (
 						<Fragment>
 							<Slider ref={c => (this.slider = c)} {...settings}>
 								<PlanCard
@@ -237,8 +238,9 @@ class PlansList extends Component {
 								<p>*Confira as condições da promoção</p>
 							</div>
 						</Fragment>
-					)}
 				</div>
+					</Fragment>
+				)}
 			</Fragment>
 		);
 	}
