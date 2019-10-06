@@ -1,17 +1,19 @@
 # HostGator Challenge
 
-`SSL(https) link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
+`HTTPS (SSL) Link:` [react-hostgator-challenge](https://react-hostgator-challenge.surge.sh/)
 
 ## Extra Challenge Points
+
+`Utilização de pré-processadores de CSS (SASS, LESS e etc):` The project was implemented with SASS.
+
+`Utilização de ES6:` The project was implemented using ES6.
+
+`Medidas de segurança:` For secure communication used HTTPS (SSL).
 
 `Utilização de automatizadores (Used Webpack to automate the list below):`
 - Autoprefixed CSS, so you don’t need `-webkit-` or other prefixes.
 - A live development server that warns about common mistakes.
 - A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
-
-`Utilização de pré-processadores de CSS (SASS, LESS e etc):` The project was implemented with SASS.
-
-`Utilização de ES6:` The project was implemented using ES6.
 
 `Animações e efeitos:`
 - Bounce animation in the scroll down button, the animation was made with CSS only.
