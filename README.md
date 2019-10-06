@@ -22,18 +22,9 @@
 
 `Otimização de Performance:`
 
-![Lighthouse score:](https://github.com/tavaresrafa/react-challenge-hostgator/blob/master/src/assets/img/lighthouse.jpg)
+![Lighthouse score:](https://github.com/tavaresrafa/react-challenge-hostgator/blob/master/src/assets/img/lighthouse-score.png)
 
-I've implemented everything that I could to get the highest score possible based on the Lighthouse's feedback. I'm going to describre below the Lighthouse log of why is not achieving 100% in some points:
-
-- Performance: First Meaningful Paint.
-
-- Accessibility: Background and foreground colors do not have a sufficient contrast ratio. 
-(One of the reasons to not score 100%, is the green background contrast in the "40%" text. So, this should be rethinked in the design level).
-
-- Best practices: Does not use HTTP/2 for all of its resources.
-
-- SEO: Page is blocked from indexing.
+I've implemented everything to get the highest score possible based on the Lighthouse feedback.
 
 ## Technologies
 List of main languages and libraries used in this project:
