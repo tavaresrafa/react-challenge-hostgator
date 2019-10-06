@@ -24,7 +24,7 @@
 
 ![Lighthouse score:](https://github.com/tavaresrafa/react-challenge-hostgator/blob/master/src/assets/img/lighthouse-score.png)
 
-I've implemented everything to get the highest score possible based on the Lighthouse feedback.
+I've implemented everything to get the highest score possible based on the feedback of Lighthouse performance tool.
 
 ## Technologies
 List of main languages and libraries used in this project:
