@@ -9,8 +9,6 @@ import SliderArrow from '../../components/Arrow/SliderArrow';
 import PlanIconP from '../../../assets/img/icon-plan-1.svg';
 import PlanIconM from '../../../assets/img/icon-plan-2.svg';
 import PlanIconTurbo from '../../../assets/img/icon-plan-3.svg';
-import '../../../../node_modules/slick-carousel/slick/slick.scss';
-import '../../../../node_modules/slick-carousel/slick/slick-theme.scss';
 import './PlansList.scss';
 
 class PlansList extends Component {
